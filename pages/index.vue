@@ -1,17 +1,17 @@
 <template>
     <div class="wrapper">
-    <StrawberryTooltip tooltip-content="Huehuehue kopi laka luku tiki taka tuku"/>
-    <StrawberryAccordion root-class="transition-all duration-300" class="">
-        <StrawberryAccordionHeader class=""/>
-    </StrawberryAccordion>
-    <StrawberryAccordion class="">
-        <StrawberryAccordionHeader class=""/>
-    </StrawberryAccordion>
-    <StrawberryCheckbox />
-    <StrawberryRadio />
-    <StrawberrySelect />
-    <StrawberrySwitch />
-    <StrawberryMenu />
+    <Tooltip tooltip-content="Huehuehue kopi laka luku tiki taka tuku"/>
+    <Accordion root-class="transition-all duration-300" class="">
+        <AccordionHeader class=""/>
+    </Accordion>
+    <Accordion class="">
+        <AccordionHeader class=""/>
+    </Accordion>
+    <Checkbox />
+    <Radio />
+    <Select />
+    <Switch />
+    <Menu />
 </div>
 </template>
 

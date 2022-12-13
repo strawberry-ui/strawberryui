@@ -1,0 +1,48 @@
+<template>
+    <button  class="css-tooltip" :data-tooltip="tooltipContent">
+        button
+    </button>
+</template>
+
+<script setup>
+const props = defineProps({
+    tooltipContent: String
+})
+</script>
+
+<style scoped>
+.css-tooltip {
+  position: relative;
+}
+.css-tooltip:hover:after {
+  content: attr(data-tooltip);
+  background: #000;
+  padding: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%, -100%);
+  margin: 0 auto;
+  color: #fff;
+  top: -5px;
+  left: 50%;
+  text-align: center;
+  font-size :0.825rem;
+}
+
+.css-tooltip:hover:before {
+  top: -5px;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #000;
+  border-width: 5px;
+  margin-left: -5px;
+  transform: translate(0, 0px);
+}
+</style>

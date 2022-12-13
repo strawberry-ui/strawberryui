@@ -15,6 +15,10 @@
 </div>
 </template>
 
+<script setup>
+
+</script>
+
 <style>
 .wrapper{
     padding: 50px

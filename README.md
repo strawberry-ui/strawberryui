@@ -1,42 +1,52 @@
-# Nuxt 3 Minimal Starter
+<a href="https://strawberry-ui.com" >
+  <img alt="Strawberry UI hero image" src="">
+</a>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Strawberry UI
 
-## Setup
+**An open-source UI component library for building high-quality, accessible design systems and web apps.**
 
-Make sure to install the dependencies:
+StrawberryUI is a low-level UI component library with a focus on accessibility, customization and developer experience. You can use these components either as the base layer of your design system, or adopt them incrementally.
 
-```bash
-# yarn
-yarn install
+---
 
-# npm
-npm install
+## Documentation
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+For full documentation, visit [strawberry-ui.com](https://strawberry-ui.com).
 
-## Development Server
+## Releases
 
-Start the development server on http://localhost:3000
+For changelog, visit [strawberry-ui.com](https://strawberry-ui.com).
 
-```bash
-npm run dev
-```
+## Contributing
 
-## Production
+Please follow our [contributing guidelines](./.github/CONTRIBUTING.md).
 
-Build the application for production:
+## Authors
 
-```bash
-npm run build
-```
+- Khairul Haaziq ([@khairulhaaziq](https://twitter.com/khairulhaaziqq))
 
-Locally preview production build:
+## Contributors
 
-```bash
-npm run preview
-```
+-
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+---
+
+## Community
+
+- Khairul Haaziq ([@khairulhaaziq](https://twitter.com/khairulhaaziqq))
+
+- [Discord](https://discord.com/invite/7Xb99uG) - To get involved with the Strawberry community, ask questions and share tips.
+- [Twitter](https://twitter.com/radix_ui) - To receive updates, announcements, blog posts, and general Strawberry tips.
+
+## Thanks
+
+
+
+---
+
+## License
+
+Licensed under the MIT License, Copyright © 2022-present [Strawberry]().
+
+See [LICENSE](./LICENSE) for more information.

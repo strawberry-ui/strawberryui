@@ -1,29 +1,14 @@
 <template>
-    <details>
-    <summary>Details</summary>
-    Something small enough to escape casual notice.
+    <details :class="rootClass">
+    <slot></slot>
+    <div :class="class">Something small enough to escape casual notice.</div>
 </details>
 </template>
 
-<style scoped>
-details {
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: .5em .5em 0;
-}
+<script setup>
 
-summary {
-    font-weight: bold;
-    margin: -.5em -.5em 0;
-    padding: .5em;
-}
-
-details[open] {
-    padding: .5em;
-}
-
-details[open] summary {
-    border-bottom: 1px solid #aaa;
-    margin-bottom: .5em;
-}
-</style>
+const props = defineProps({
+    class: String,
+    rootClass: String,
+})
+</script>

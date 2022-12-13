@@ -10,6 +10,13 @@ StrawberryUI is a low-level UI component library with a focus on accessibility, 
 
 ---
 
+## Accessibility Guides
+
+[WCAG Checklist](https://webaim.org/standards/wcag/checklist)
+[WCAG Guidelines](https://www.w3.org/TR/WCAG20/)
+[WAI-ARIA Basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics#:~:text=WAI%2DARIA%20(Web%20Accessibility%20Initiative,accessibility%20wherever%20it%20is%20lacking.)
+[a11y Project](https://www.a11yproject.com/)
+
 ## Documentation
 
 For full documentation, visit [strawberry-ui.com](https://strawberry-ui.com).

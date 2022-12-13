@@ -1,14 +1,12 @@
 <template>
     <div class="wrapper">
     <StrawberryTooltip tooltip-content="Huehuehue kopi laka luku tiki taka tuku"/>
-    <div class="rounded-md border">
-    <StrawberryAccordion root-class="transition-all duration-300" class="p-4 border-b">
-        <StrawberryAccordionHeader class="p-4 border-b"/>
+    <StrawberryAccordion root-class="transition-all duration-300" class="">
+        <StrawberryAccordionHeader class=""/>
     </StrawberryAccordion>
-    <StrawberryAccordion class="p-4">
-        <StrawberryAccordionHeader class="p-4 last-child:border-b"/>
+    <StrawberryAccordion class="">
+        <StrawberryAccordionHeader class=""/>
     </StrawberryAccordion>
-</div>
     <StrawberryCheckbox />
     <StrawberryRadio />
     <StrawberrySelect />

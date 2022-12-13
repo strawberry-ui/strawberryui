@@ -12,6 +12,7 @@
     <Select />
     <Switch />
     <Menu />
+    <AlertDialog />
 </div>
 </template>
 
